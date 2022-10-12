@@ -4,7 +4,10 @@
 x = int(input("Enter your first number: "))
 y = int(input("Enter your second number: "))
 
-count = -1
+if x < 10:
+  count = -1
+else:
+  count = 0
 # This code tells the computer to calculate the quotient using only subtraction.
 while x > 0:
   x -= y
